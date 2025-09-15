@@ -6,6 +6,7 @@ import { appState } from './state.js';
 import { dom } from './dom.js';
 import { setupIdeasFeed } from './ideas-feed.js';
 import { setupNotifications } from './notifications.js';
+import { showToast } from './toast.js';
 
 function toggleAuthMode() {
   appState.isSignUp = !appState.isSignUp;
